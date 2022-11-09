@@ -1,0 +1,30 @@
+header{
+    text-align: center;
+    font-size: x-large;
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background: rgb(72,231,255);
+    background: radial-gradient(circle, rgb(222, 221, 233) 10%, rgb(119, 181, 224) 100%);
+}
+.szoveg{
+    text-align: center;
+}
+h2{
+    font-size: x-large;
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 3px;
+    padding: 2px;
+    display: inline;
+    float: center;
+}
+.grid{
+    margin-top: 20px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(4, 150px);
+    justify-content: center;
+}
